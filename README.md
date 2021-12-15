@@ -509,6 +509,21 @@ These are prevalent technologies but not part of this study plan:
 
 ## The Daily Plan
 
+- Work day (Monday-Friday):
+    - Learn, record notes and practice
+        - Learning (books or videos)
+        - record notes (O365) (all, including technical, fundamental and problem solving technique)
+        - practice (from books or sites)
+    - Transfer the previous days notes to flash cards
+
+- Day off (Saturday):
+    - Review week's flashcards
+    - Practice applying problem solving techniques
+        - practice as if it were an interview
+        - timed (goal < 30 min per problem)
+
+
+
 This course goes over a lot of subjects. Each will probably take you a few days, or maybe even a week or more. It depends on your schedule.
 
 Each day, take the next subject in the list, watch some videos about that subject, and then write an implementation 
