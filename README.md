@@ -170,27 +170,6 @@ Everything below is an outline, and you should tackle the items in order from to
 
 I'm using GitHub's special markdown flavor, including tasks lists to track progress.
 
-**Create a new branch so you can check items like this, just put an x in the brackets: [x]**
-
-    Fork a branch and follow the commands below
-
-Fork the GitHub repo https://github.com/jwasham/coding-interview-university by clicking on the Fork button.
-
-Clone to your local repo:
-
-    git clone git@github.com:<your_github_username>/coding-interview-university.git
-    git checkout -b progress
-    git remote add jwasham https://github.com/jwasham/coding-interview-university
-    git fetch --all
-
-Mark all boxes with X after you completed your changes:
-
-    git add .
-    git commit -m "Marked x"
-    git rebase jwasham/main
-    git push --set-upstream origin progress
-    git push --force
-
 [More about GitHub-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ## Don't feel you aren't smart enough
@@ -201,11 +180,11 @@ Mark all boxes with X after you completed your changes:
 
 ## A Note About Video Resources
 
-Some videos are available only by enrolling in a Coursera or EdX class. These are called MOOCs.
+Some videos are available only by enrolling in a Coursera or EdX class. (MOOCs)
 Sometimes the classes are not in session so you have to wait a couple of months, so you have no access.
 
 It would be great to replace the online course resources with free and always-available public sources, 
-such as YouTube videos (preferably university lectures), so that you people can study these anytime, 
+such as YouTube videos (preferably university lectures), so that people can study these anytime, 
 not just when a specific online course is in session.
 
 ## Choose a Programming Language
@@ -219,20 +198,24 @@ Preferably the language would be the same, so that you only need to be proficien
 
 When I did the study plan, I used 2 languages for most of it: C and Python
 
-* C: Very low level. Allows you to deal with pointers and memory allocation/deallocation, so you feel the data structures 
-    and algorithms in your bones. In higher level languages like Python or Java, these are hidden from you. In day to day work, that's terrific,
-    but when you're learning how these low-level data structures are built, it's great to feel close to the metal.
-    - C is everywhere. You'll see examples in books, lectures, videos, *everywhere* while you're studying.
+* C: Very low level. Allows me to deal with pointers and memory allocation/deallocation, so I can better feel the data structures 
+    and algorithms in my bones. In higher level languages like Python or Java, these are hidden. In day to day work, that's terrific,
+    but when I'm learning how these low-level data structures are built, I'd like to feel closer to the metal.
+    - C seems quite prolific. I've seen examples in books, lectures, videos, *everywhere* while studying.
     - [The C Programming Language, Vol 2](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - This is a short book, but it will give you a great handle on the C language and if you practice it a little
-            you'll quickly get proficient. Understanding C helps you understand how programs and memory work.
-        - You don't need to go super deep in the book (or even finish it). Just get to where you're comfortable reading and writing in C.
+        - Short book to jumpt start on the C language
+        - Planning to use this, combined with some practice, to get initially proficient.
+        - Side benefit, understanding C should help me better understand how programs and memory work. Also appears to have a large portion of similar syntax to C#.
+        - Not intending to go super deep in the book (or necessarily finish it). Just get to where I'm comfortable reading and writing in C.
         - [Answers to questions in the book](https://github.com/lekkas/c-algorithms)
-* Python: Modern and very expressive, I learned it because it's just super useful and also allows me to write less code in an interview.
+* C#: One of the languages I've spent much of my career, to date, in. Also a very common language at Microsoft. As a plus, also syntactically similar to Java.
 
-This is my preference. You do what you like, of course.
+Others considered
+* Python (first language, easy to read and rather concise, but haven't done much in it in several years)
+* Go (fun language I would like to explore more, but didn't feel it provided the low level experience I'm looking for)
+* Rust (really intriguing, and have learned a lot from very small first steps. While learning, C and C++ are often mentioned, so taking a foray into those, and hoping to come back here at some point in the future.)
 
-You may not need it, but here are some sites for learning a new language:
+May not need it, but potential sites for learning a new language:
 - [Exercism](https://exercism.org/tracks)
 - [Codewars](http://www.codewars.com)
 - [Codility](https://codility.com/programmers/)
@@ -249,21 +232,14 @@ You can use a language you are comfortable in to do the coding part of the inter
 - Java
 - Python
 
-You could also use these, but read around first. There may be caveats:
+Need to be very comfortable and knowledgeable in the language.
 
-- JavaScript
-- Ruby
-
-Here is an article I wrote about choosing a language for the interview: 
-[Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/).
-This is the original article my post was based on: http://blog.codingforinterviews.com/best-programming-language-jobs/
-
-You need to be very comfortable in the language and be knowledgeable.
-
-Read more about choices: 
+More about choices: 
+- [Pick One Language for the Coding Interview](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/) 
+    - [Original article the above was based on](http://blog.codingforinterviews.com/best-programming-language-jobs/)
 - [Choose the Right Language for Your Coding Interview](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
 
-[See language-specific resources here](programming-language-resources.md)
+[Some language-specific resources here](programming-language-resources.md)
 
 ## Books for Data Structures and Algorithms
 
